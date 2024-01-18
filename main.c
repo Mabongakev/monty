@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	while (read_line > 0)
 	{
 		content = NULL;
-		read_line = my_getline(&content, &size, file);
+		read_line = getline(&content, &size, file);
 		argmnt.content = content;
 		c++;
 		if (read_line > 0)

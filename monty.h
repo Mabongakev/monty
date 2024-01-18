@@ -1,5 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -64,5 +65,4 @@ void add_queue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int c);
 int exec(char *content, stack_t **stack, unsigned int c, FILE *file);
 int main(int argc, char *argv[]);
-ssize_t my_getline(char **lineptr, size_t *n, FILE *stream);
 #endif
