@@ -41,5 +41,5 @@ int main(int argc, char *argv[])
 	}
 	free_list(stack);
 	fclose(file);
-return (0);
+	return (0);
 }

@@ -36,7 +36,7 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 /**
- * struct argmnt_s - variables -args, pointer, content
+ * struct argmnt_s - variables -args, file, content
  * @arg: value
  * @file: pointer to monty file
  * @content: line content

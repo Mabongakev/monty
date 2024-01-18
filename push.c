@@ -14,9 +14,7 @@ void f_push(stack_t **head, unsigned int c)
 		if (argmnt.arg[0] == '-')
 			k++;
 		while (argmnt.arg[k] != '\0')
-		{
 			k++;
-		}
 		{
 			if (argmnt.arg[k] > 57 || argmnt.arg[k] < 48)
 				g = 1;
