@@ -65,4 +65,5 @@ void add_queue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int c);
 int exec(char *content, stack_t **stack, unsigned int c, FILE *file);
 int main(int argc, char *argv[]);
+void f_sub(stack_t **head, unsigned int c);
 #endif
